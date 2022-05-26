@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Spline+Sans+Mono:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #C2DED1;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    background-attachment: fixed;
+}
+
+.header img{
+    height: 270px;
+    width: 270px;
+}
+
+.header-text{
+    font-family: 'Ibarra Real Nova', serif;
+    margin-left:100px;
+    text-align: justify;
+}
+
+.header-text .kimochi {
+    color: black;
+}
+
+body{ 
+    background-color: #ECE5C7;
+}
+
+main {
+    text-align: justify;
+    margin: 45px;
+    margin-top: 15px;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+.playlist-song{ 
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.playlist-song img {
+    height: 175px;
+    width: 175px;
+}
+
+.playlist-song-text {
+    margin: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.playlist-song-text p {
+    font-family: 'Spline Sans Mono', monospace;
+    width: 700px;
+}
