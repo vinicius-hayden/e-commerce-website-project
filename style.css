@@ -57,7 +57,8 @@ main h2 {
 }
 
 .playlist-song-text {
-    margin: 15px;
+    margin-top: 0px;
+    margin-left: 15px;
     font-family: Roboto, sans-serif;
 }
 
