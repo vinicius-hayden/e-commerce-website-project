@@ -24,6 +24,17 @@ onload = function () {
         }
     };
 
+    const header = document.getElementById('header-text');
+    const button = document.createElement('button');
+    const playlistA = document.createElement('a');
+
+    header.appendChild(playlistA);
+    setAttributes(playlistA, {'href': 'https://www.youtube.com/playlist?list=PLbxlRkeAiJD4Y31i_JpqVe3L419ph_5NT', 'target': '_blank'});
+    playlistA.appendChild(button);
+    setAttributes(button, {'type' : 'button', 'id': button});
+    button.innerHTML = 'PLAY';
+
+    
     let h2MainContent = `“I find pieces of you in every song I listen to”`;
     let pMainContent = `Para ser direto ao ponto (você sabe que eu enrolo bastante), dedico 
     essa playlist inteiramente à você, fe, com todo o amor e carinho do mundo.`
