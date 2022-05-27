@@ -24,6 +24,7 @@ onload = function () {
         }
     };
 
+
     const header = document.getElementById('header-text');
     const button = document.createElement('button');
     const playlistA = document.createElement('a');
