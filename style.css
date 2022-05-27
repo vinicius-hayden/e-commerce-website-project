@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Spline+Sans+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&family=Roboto+Serif:ital,opsz,wght@0,8..144,500;1,8..144,800&family=Roboto:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +45,9 @@ main {
 
 main h2 {
     font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 
 .playlist-song{ 
     margin-left: 50px;
@@ -63,6 +67,6 @@ main h2 {
 }
 
 .playlist-song-text p {
-    font-family: 'Spline Sans Mono', monospace;
+    font-family: 'Spline Sans Mono', sans-serif;
     width: 700px;
 }
