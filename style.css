@@ -29,6 +29,22 @@
     text-align: justify;
 }
 
+.header-text button {
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.header-text button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 .header-text .kimochi {
     color: black;
 }
@@ -58,15 +74,32 @@ main h2 {
 .playlist-song img {
     height: 175px;
     width: 175px;
+    box-shadow: 2px 2px 15px 1px black;
+    transition: 0.5s;
 }
+
+.playlist-song img:hover {
+    transform: scale(1.2);
+}
+
 
 .playlist-song-text {
     margin-top: 0px;
-    margin-left: 15px;
+    margin-left: 55px;
     font-family: Roboto, sans-serif;
 }
 
 .playlist-song-text p {
     font-family: 'Spline Sans Mono', sans-serif;
-    width: 700px;
+    width: 1000px;
+    height: 175px;
+    font-weight: 500
+}
+
+.playlist-song-text a {
+    color: darkblue;
+}
+
+.playlist-song-text a:hover {
+    transform: scale(1.0);
 }
