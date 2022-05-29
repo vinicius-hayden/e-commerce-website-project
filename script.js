@@ -1,4 +1,6 @@
 import { songs } from './utils/modules.js'
+import { bonus } from './utils/modules.js'
+import { bonus_song } from './utils/modules.js'
 
 onload = function () {
     let main = this.document.createElement('main');
@@ -71,4 +73,55 @@ onload = function () {
         altDiv.appendChild(altp);
         altp.innerHTML = song.phrase;
     })
+
+    const article = this.document.createElement('article');
+    const bonusButton = this.document.createElement('button')
+    this.document.body.appendChild(article);
+    article.appendChild(h2);
+    h2.innerHTML = `Música Bônus`;
+    h2.style.textAlign = "center";
+    article.appendChild(p);
+    p.innerHTML = bonus.bonustext;
+    article.appendChild(bonusButton);
+    setAttributes(bonusButton, {'type' : 'button', 'id': 'bonus-button'});
+    bonusButton.innerHTML = 'Clique aqui :)';
+
+    
+    
+    this.document.getElementById('bonus-button').addEventListener('click', function(){
+        
+        bonus_song.forEach(function (song) {
+            let div = document.createElement('div');
+            let altDiv = document.createElement('div');
+            let altA = document.createElement('a');
+            let alth2 = document.createElement('h2');
+            let altp = document.createElement('p');
+            let img = document.createElement('img');
+            let a = document.createElement('a');
+            let bonusTitle = document.createElement('h2');
+            
+            function createElementText() {
+                bonusTitle.innerHTML = `A tua voz não tem nada igual`;
+            }
+
+            article.appendChild(br);
+            article.appendChild(div);
+            div.setAttribute('class', 'playlist-song');
+            div.appendChild(a);
+            setAttributes(a, {'onclick': createElementText});
+            a.appendChild(img);
+            img.setAttribute('src', song.album);
+            div.appendChild(altDiv);
+            altDiv.setAttribute('class', 'playlist-song-text');
+            altDiv.appendChild(bonusTitle);
+            // h2.setAttribute('onclick()', `alert("Hello!")`)
+            bonusTitle.innerHTML = `Teste!`;
+            altA.appendChild(alth2);
+            alth2.innerHTML = song.name;
+            altDiv.appendChild(altp);
+            altp.innerHTML = song.phrase;
+        })
+        bonusButton.remove();
+    })
+    
 }
