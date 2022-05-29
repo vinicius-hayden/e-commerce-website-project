@@ -10,13 +10,13 @@ export const songs = [
      do Wild Nothing que escutei, e como você sabe, sou louco por essa banda até hoje. Letting Go, eu tentava sarar aquela dor, você me ajudou muito, muito. "Surreal, the way you make me out, the way you crash me down".
      Fazia muito tempo em que eu não tinha uma conversa verdadeiramente boa com alguém. Sim eu confesso, me abri rápido demais com você, mas não me arrependo. Como você disse (ou escreveu?) na "cartinha", a única coisa 
      que você fazia nessa época era me ouvir e responder, e isso já significava muito para mim. "I step inside", me lembro como se fosse ontem eu adentrando na sua sala, tremendo e com calafrios me perguntando se você 
-     realmente me ajudaria. Quem diria que sua ajuda seria muito além do que um simples trabalho de neologia em português.` }
+     realmente me ajudaria. Quem diria que sua ajuda iria ser muito além do que um simples trabalho de neologia em português.` }
     ,
 
     {"name": "Mac DeMarco - For the first time", "link": "https://www.youtube.com/watch?v=cZCm_i6YvAk", "lyrics": "https://genius.com/Mac-demarco-for-the-first-time-lyrics",
     "album": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fe016d633816ada4c55a26832da91f2f4.1000x1000x1.jpg", "phrase": `Essa música você já sabe o motivo, só faco questão de colocá-la aqui porque o sentimento é fidedigno. Ficamos um tempinho sem 
-    conversar, mas em novembro do ano passado quando a gente voltou a se falar, realmente pareceu que nada tinha mudado. Eu sei lá fe, é atemporal, são 4 anos de amizade mas p mim sinceramente parece que todo dia te conheço de novo, sempre to te conhecendo mais e mais, 
-    e essa magia nunca vai acabar. Você <strong> sempre </strong> me impressiona, e todo dia com você é um dia novo, e sou grato de poder construir esse relacionamento tão lindo com você todos os dias, muito obrigado 
+    conversar, mas em novembro do ano passado quando a gente voltou a se falar, realmente pareceu que nada tinha mudado. Eu sei lá fe, é atemporal. São 4 anos de amizade mas p mim sinceramente parece que todo dia te conheço de novo, sempre to te conhecendo mais e mais, 
+    e essa magia nunca vai acabar. Você <strong> sempre </strong> me impressiona, e todo dia com você é um dia novo, e tenho a maior gratidão do mundo de poder construir esse relacionamento tão lindo com você todos os dias, muito obrigado 
     `},
 
     {"name": "Wild Nothing - Only Heather", "link": "https://www.youtube.com/watch?v=Ghb-u7u36B8", "lyrics": "https://genius.com/Wild-nothing-only-heather-lyrics", 
@@ -47,15 +47,29 @@ export const songs = [
     que como já falei já "conhecia" e ele aos prantos falou: "Vini, quando você conhecer a pessoa certa, vai lembrar dessa música", não foi diferente. A letra, puts, eu to escrevendo isso aqui chorando... Ignora o fato de que ela tem quase 50 anos e olha a letra... enfim, to chorando e não consigo pensar em escrever mais nada.
     `}
     ,
-    {"name": "DIIV - Dopamine", "link": "https://www.youtube.com/watch?v=HdemOVIXuAI", "lyrics": "https://genius.com/Diiv-dopamine-lyrics", "album": "https://m.media-amazon.com/images/I/91dpGvabz3L._AC_SL1400_.jpg", "phrase": `A alegria fodida de estar ao seu lado é melhor que qualquer coisa, 
-    dopamina dopamina "You're my sun and I'm your cloud", "Got so high I finnaly felt like myself" Estar com você é simplesmente a melhor coisa da minha vida.`}
+    {"name": "DIIV - Dopamine", "link": "https://www.youtube.com/watch?v=HdemOVIXuAI", "lyrics": "https://genius.com/Diiv-dopamine-lyrics", "album": "https://m.media-amazon.com/images/I/91dpGvabz3L._AC_SL1400_.jpg", "phrase": `A alegria fodida de estar ao seu lado é melhor que qualquer coisa. 
+    Dopamina, a melhor parte do meu dia é você. "You're my sun and I'm your cloud", "Got so high I finnaly felt like myself", porque com você eu não tenho medo de julgamentos, Eu consigo ser eu mesmo (Eu sou um desastre e você ainda assim me ama, nossa... ) Estar com você é simplesmente a melhor coisa da minha vida.`}
+    ,
+    {"name": "Craft Spells - After the Moment", "link": "https://www.youtube.com/watch?v=010Y7prdNY0https://www.youtube.com/watch?v=010Y7prdNY0", "lyrics": "https://genius.com/Craft-spells-after-the-moment-lyrics", "album": "https://i.scdn.co/image/ab67616d0000b273b8d021b436bc1923f087dbf4", 
+    "phrase": `Seguindo a linha da música anterior, tenho um sentimento que acho que nunca te falei, sempre que você me manda uma foto sua, você sabe que eu me derreto de amor né? A parada é que eu sinto algo muito mais intenso, sei lá te explicar, você é perfeita demais e eu só penso em você, só quero você, te devorar. Tô com muitas saudades de ...`}
+    ,
+    {"name": "Fazerdaze - Lucky Girl", "link": "https://www.youtube.com/watch?v=My4j3vgFxbE", "lyrics": "https://genius.com/Fazerdaze-lucky-girl-lyrics", "album": "http://images.genius.com/6ae0497c8f95c82de58586210a4918e8.1000x1000x1.jpg", 
+    "phrase": `Eu sou a garota (porque eu sou a mulher da relação) mais sortuda do mundo por ter você.`}
     ,
     {"name": "girl in red - we fell in love in october", "link": "https://www.youtube.com/watch?v=iggmiF7DNoM", "lyrics": "https://genius.com/Girl-in-red-we-fell-in-love-in-october-lyrics", "album": "https://m.media-amazon.com/images/I/712MoKaNeZL._SL1200_.jpg", "phrase": `Nada melhor que 
-    pensar na música de uma cantora que você me recomendou no começo de 2019... Auto-explicativo né? Não nos apaixonamos em outubro, mas You'll be my girl my girl my girl, you'll be my world my world my world`}
+    pensar na música de uma cantora que você me recomendou no começo de 2019... Auto-explicativo né? Não nos apaixonamos em outubro, mas You'll be my girl my girl my girl my girl, you'll be my world my world my world my world`}
     ,
     {"name": "Wild Nothing - Through Windows", "link": "https://www.youtube.com/watch?v=uDbJiCHE0yA", "lyrics": "https://genius.com/Wild-nothing-through-windows-lyrics", "album": "https://monkeybuzz.com.br/wp-content/uploads/2018/09/wild-nothing-indigo-5b90f7a4a0341-1024x1024.jpg", "phrase": `
-    Me apaixono por você todos os dias, todos os dias eu me boiolo mais ainda por você, a sensação é que o amor se multiplica a cada segundo, é muito amor, eu sinto muita coisa e obviamente, como você disse, três ou um milhão de palavras não conseguiriam explicar o que eu sinto, mas posso te dizer que
-    "This love is all yours, now and forever, now and forever".
-    `}
-
+    Para finalizar, me apaixono por você todos os dias. Todos os dias eu me boiolo mais ainda por você, a sensação é que o amor se multiplica a cada segundo, é muito amor, eu sinto muita coisa e obviamente, como você disse, três ou um milhão de palavras não conseguiriam explicar o que eu sinto, mas posso te dizer que
+    "This love is all yours, now and forever, now and forever, now and forever", "Again" (Porque é um ciclo).
+    `}    
 ];
+
+export const bonus = {
+"bonustext": `Essa música entretanto, diferente das outras, é única. É simplesmente a melodia mais bonita de todas, insuperável. Eu escutaria essa música dia após dia, todos os dias, todas as horas, e nunca me cansaria.
+`
+}
+
+export const bonus_song = [{"name": "Sua voz", "link": `alert("Tua voz, é simplesmente")`, "lyrics": "", "album": "https://i.pinimg.com/564x/52/5f/ac/525fac1c5730e141d4998095ab9e66bc--talk-to-me-real-talk.jpg", "phrase": `Teste`}];
+
+// {"name": "", "link": "", "lyrics": "", "album": "", "phrase": ``}
