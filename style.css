@@ -64,7 +64,6 @@ main h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-
 .playlist-song{ 
     margin-left: 50px;
     margin-top: 25px;
@@ -81,7 +80,6 @@ main h2 {
 .playlist-song img:hover {
     transform: scale(1.2);
 }
-
 
 .playlist-song-text {
     margin-top: 0px;
@@ -102,4 +100,88 @@ main h2 {
 
 .playlist-song-text a:hover {
     transform: scale(1.0);
+}
+
+@media screen and (max-width:755px) {
+    .header {
+        padding: 10px;
+        display: block;
+    }
+    .header img {
+        height: 250px;
+        width: 250px;
+    }
+    .header-text {
+        margin-left: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:679px) {
+    .header img {
+        height: 150px;
+        width: 150px;
+    }
+    .header-text {
+        font-size: 22.5px;
+    }
+    .header-text button{
+        width: 105px;
+        padding: 7px;
+    }
+    .playlist-song img:hover {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:1329px) {
+    .playlist-song{ 
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    .playlist-song-text {
+        margin-left: 55px;
+        font-family: Roboto, sans-serif;
+    }
+    
+    .playlist-song-text p {
+        font-family: 'Spline Sans Mono', sans-serif;
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:679px) {
+    .header-text{
+        font-size: 22.5px;
+    }
+
+    .playlist-song{
+        display: block;
+    }
+
+    .playlist-song-text {
+        margin: 0px;
+        width: 250px;
+        font-size: smaller;
+    }
+
+    .playlist-song img {
+        margin-bottom: 10px;
+    }
+
+    .playlist-song img:hover {
+        transform: scale(1);
+    }
+
+    .playlist-song-text a h2{
+        font-size: 25px;
+        font-style: normal;
+    }
+
+    main h2 {
+        font-size: 22.5px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
 }
