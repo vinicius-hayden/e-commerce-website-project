@@ -104,8 +104,7 @@ main h2 {
 
 article { 
     margin-top: 25px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 45px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -116,9 +115,17 @@ article h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+article .playlist-song .playlist-song-text h2{
+    color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 article p {
     font-family: 'Spline Sans Mono', sans-serif;
     text-align: center;   
+    width: fit-content;
+    font-size: 15px;
 }
 
 article .playlist-song img {
@@ -204,6 +211,7 @@ article .playlist-song .playlist-song-text p {
 
 @media screen and (max-width:679px) {
     .header-text{
+        margin: 0;
         font-size: 22.5px;
     }
 
@@ -213,12 +221,14 @@ article .playlist-song .playlist-song-text p {
 
     .playlist-song-text {
         margin: 0px;
-        width: 250px;
+        width: 300px;
         font-size: smaller;
     }
 
     .playlist-song img {
         margin-bottom: 10px;
+        height: 135px;
+        width: 135px;
     }
 
     .playlist-song img:hover {
@@ -226,12 +236,26 @@ article .playlist-song .playlist-song-text p {
     }
 
     .playlist-song-text a h2{
-        font-size: 25px;
+        font-size: 22.5px;
         font-style: normal;
+    }
+
+    main {
+        margin: 5px;
+        margin-top: 15px;
     }
 
     main h2 {
         font-size: 22.5px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
+
+    article {
+        margin: 25px;
+    }
+
+    article h2 {
+        font-size: 25px;
+    }
+
 }
