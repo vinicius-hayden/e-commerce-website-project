@@ -33,7 +33,7 @@ export const songs = [
     {"name": "Wild Nothing - Oscillation", "link": "https://www.youtube.com/watch?v=8TZcKjL-J3A", "lyrics": "https://genius.com/Wild-nothing-oscillation-lyrics", "album": "https://monkeybuzz.com.br/wp-content/uploads/2018/09/wild-nothing-indigo-5b90f7a4a0341-1024x1024.jpg", 
     "phrase": `Você também é meu trevo de quatro folhas, eu te amo, eu te amo.`}
     ,
-    {"name": "The Smiths - There is a Light Never Goes out", "link": "https://www.youtube.com/watch?v=3r-qDvD3F3c", "lyrics": "https://genius.com/The-smiths-there-is-a-light-that-never-goes-out-lyrics", "album": "http://s2.glbimg.com/QdN-4MPwUDhKjFS-WjjQ9Xjio18=/smart/e.glbimg.com/og/ed/f/original/2017/07/20/cd_deluxe_top.jpg", 
+    {"name": "The Smiths - There is a Light That Never Goes out", "link": "https://www.youtube.com/watch?v=3r-qDvD3F3c", "lyrics": "https://genius.com/The-smiths-there-is-a-light-that-never-goes-out-lyrics", "album": "http://s2.glbimg.com/QdN-4MPwUDhKjFS-WjjQ9Xjio18=/smart/e.glbimg.com/og/ed/f/original/2017/07/20/cd_deluxe_top.jpg", 
     "phrase": `The Smiths? Muito clichê e mainstream né? Sinto que ouvir essa música e pensar em você é como eu aceitando que eu sou meloso e apaixonadinho por você e não tenho medo desse título porque esse sentimento é tão bom, que ouvir essa música é a mesma coisa. 
     "Take me anywhere, I dont't care, I don't care" sua presença é tudo p mim, seja em call, seja fisicamente, faz comigo qualquer coisa, vamos fazer uma call só p ficar um olhando p cara do outro com sorriso bobo e coração mole, vamos no mercado, vamos cozinhar, vamos cantar... Se
     tem um luz que nunca se vai, é meu amor por você.`}
@@ -70,6 +70,6 @@ export const bonus = {
 `
 }
 
-export const bonus_song = [{"name": "Sua voz", "link": `alert("Tua voz, é simplesmente")`, "lyrics": "", "album": "https://i.pinimg.com/564x/52/5f/ac/525fac1c5730e141d4998095ab9e66bc--talk-to-me-real-talk.jpg", "phrase": `Teste`}];
+export const bonus_song = [{"name": "Sua voz", "link": `alert("Tua voz, é simplesmente")`, "lyrics": "", "album": "https://i.pinimg.com/564x/52/5f/ac/525fac1c5730e141d4998095ab9e66bc--talk-to-me-real-talk.jpg", "phrase": `Sua voz, você ainda diz que não gosta dela, p mim é a sinfonia mais bonita, é por ela que eu me enlouqueço de amor. Da conversa mais intelectual até a sua voz de soninho, eu simplesmente amo tua voz demais.`}];
 
 // {"name": "", "link": "", "lyrics": "", "album": "", "phrase": ``}
