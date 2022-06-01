@@ -76,15 +76,20 @@ onload = function () {
 
     const article = this.document.createElement('article');
     const bonusButton = this.document.createElement('button')
+    const bonusBr = this.document.createElement('br');
+    const bonusDivButton = this.document.createElement('div');
     this.document.body.appendChild(article);
     article.appendChild(h2);
     h2.innerHTML = `Música Bônus`;
     h2.style.textAlign = "center";
     article.appendChild(p);
     p.innerHTML = bonus.bonustext;
-    article.appendChild(bonusButton);
+    article.appendChild(bonusDivButton);
+    bonusDivButton.setAttribute('class', 'div-button')
+    bonusDivButton.appendChild(bonusButton);
     setAttributes(bonusButton, {'type' : 'button', 'id': 'bonus-button'});
     bonusButton.innerHTML = 'Clique aqui :)';
+    this.document.body.appendChild(bonusBr);
 
     
     
@@ -99,29 +104,30 @@ onload = function () {
             let img = document.createElement('img');
             let a = document.createElement('a');
             let bonusTitle = document.createElement('h2');
-            
-            function createElementText() {
-                bonusTitle.innerHTML = `A tua voz não tem nada igual`;
-            }
-
             article.appendChild(br);
             article.appendChild(div);
             div.setAttribute('class', 'playlist-song');
             div.appendChild(a);
-            setAttributes(a, {'onclick': createElementText});
             a.appendChild(img);
             img.setAttribute('src', song.album);
             div.appendChild(altDiv);
             altDiv.setAttribute('class', 'playlist-song-text');
             altDiv.appendChild(bonusTitle);
-            // h2.setAttribute('onclick()', `alert("Hello!")`)
-            bonusTitle.innerHTML = `Teste!`;
+            bonusTitle.innerHTML = `Sua voz`;
             altA.appendChild(alth2);
             alth2.innerHTML = song.name;
             altDiv.appendChild(altp);
             altp.innerHTML = song.phrase;
+            
+            a.addEventListener('click', () =>{
+                alert('Igual a sua voz, simplesmente não há nada igual.');
+            })
+            
+            bonusTitle.addEventListener('click', () =>{
+                alert('As letras da sua voz, indecifráveis sinais de eterno flerte.');
+            })
+
         })
         bonusButton.remove();
     })
-    
 }
