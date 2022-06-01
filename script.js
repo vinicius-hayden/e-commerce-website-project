@@ -73,7 +73,6 @@ onload = function () {
         altDiv.appendChild(altp);
         altp.innerHTML = song.phrase;
     })
-
     const article = this.document.createElement('article');
     const bonusButton = this.document.createElement('button')
     const bonusBr = this.document.createElement('br');
