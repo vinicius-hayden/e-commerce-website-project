@@ -93,7 +93,6 @@ onload = function () {
     
     
     this.document.getElementById('bonus-button').addEventListener('click', function(){
-        
         bonus_song.forEach(function (song) {
             let div = document.createElement('div');
             let altDiv = document.createElement('div');
@@ -123,7 +122,7 @@ onload = function () {
             })
             
             bonusTitle.addEventListener('click', () =>{
-                alert('As letras da sua voz, indecifráveis sinais de eterno flerte.');
+                alert('As letras da sua voz, indecifráveis sinais de eterno flerte. Nem o poema mais bonito do mundo chega perto da sua voz.');
             })
 
         })
