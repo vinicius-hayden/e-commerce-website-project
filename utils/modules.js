@@ -70,6 +70,6 @@ export const bonus = {
 `
 }
 
-export const bonus_song = [{"name": "Sua voz", "link": `alert("Tua voz, é simplesmente")`, "lyrics": "", "album": "https://i.pinimg.com/564x/52/5f/ac/525fac1c5730e141d4998095ab9e66bc--talk-to-me-real-talk.jpg", "phrase": `Sua voz, você ainda diz que não gosta dela, p mim é a sinfonia mais bonita, é por ela que eu me enlouqueço de amor. Da conversa mais intelectual até a sua voz de soninho, eu simplesmente amo tua voz demais.`}];
+export const bonus_song = [{"name": "Sua voz", "link": `alert("Tua voz, é simplesmente")`, "lyrics": "", "album": "https://i.pinimg.com/564x/52/5f/ac/525fac1c5730e141d4998095ab9e66bc--talk-to-me-real-talk.jpg", "phrase": `Sua voz, você ainda diz que não gosta dela, p mim é a sinfonia, harmonia, melodia, a arte mais bonita do mundo, é por ela que eu me enlouqueço de amor. Da conversa mais intelectual, das pindamonhagabas até a sua voz de soninho, eu simplesmente amo tua voz demais.`}];
 
 // {"name": "", "link": "", "lyrics": "", "album": "", "phrase": ``}
